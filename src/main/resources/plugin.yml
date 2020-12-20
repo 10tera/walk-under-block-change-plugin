@@ -1,0 +1,9 @@
+name: TutorialPlugin
+main: com.github.Sosupe.testplugin.TestPlugin
+version: 0.0.1
+commands:
+   test:
+      description: This is a demo command.
+      usage: /<command> [player]
+      permission: tutorialplugin.test
+      permission-message: You don't have <permission>
